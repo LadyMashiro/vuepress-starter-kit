@@ -1,13 +1,13 @@
 module.exports = {
-	title: 'VuePress Starter Kit',
+	title: 'Lady Mashiro',
 	head: [
 		['link', { rel: 'icon', href: `/favicon.png` }]
 	],
 	ga: '',
 	description: 'This is your page description.',
 	themeConfig: {
-		repo: 'https://github.com/bencodezen/vuepress-starter-kit',
-		editLinks: true,
+		// repo: 'https://github.com/bencodezen/vuepress-starter-kit',
+		editLinks: false,
 		editLinkText: 'Edit this page',
 		lastUpdated: 'Last updated',
 		nav: [
@@ -16,14 +16,22 @@ module.exports = {
 				link: '/'
 			},
 			{
+				text: 'Workshops',
+				link: '/workshops/'
+			},
+			{
 				text: 'Basic Page',
 				link: '/basic/'
+			},
+			{
+				text: 'About',
+				link: '/about/'
 			},
 			{
 				text: 'Component Example',
 				link: '/component-example'
 			},
-			{
+			/*{
 				text: 'Section',
 				items: [
 					{
@@ -48,7 +56,7 @@ module.exports = {
 						link: 'mailto:hello@email.com'
 					}
 				]
-			}
+			}*/
 		],
 		docsDir: 'docs'
 	}
